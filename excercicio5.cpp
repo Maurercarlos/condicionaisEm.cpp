@@ -8,11 +8,11 @@ int main(){
     scanf("%d", &num);
 
     if (num > 10) {
-        printf("Seu número é maior que 10\n");
+        printf("%d número é maior que 10\n", num);
     } else if (num == 10) {
-    printf("Seu número é igual a 10\n");
-    } else  {
-        printf("")
+    printf("%d número é igual a 10\n", num);
+    } else (num < 10) {
+        printf("%d número é menor que 10 %d\n", num);
     }
     return 0;
 }
